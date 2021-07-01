@@ -3,14 +3,14 @@ Neos:
     Ui:
       resources:
         javascript:
-          Yoast.YoastSeoForNeos:YoastInfoView:
+          PunktDe.NeosEnvironmentDisplay:Display:
             resource: 'resource://PunktDe.NeosEnvironmentDisplay/Public/NeosEnvironmentDisplay/Plugin.js'
         stylesheets:
-          Yoast.YoastSeoForNeos:YoastInfoView:
+          PunktDe.NeosEnvironmentDisplay:Display:
             resource: 'resource://PunktDe.NeosEnvironmentDisplay/Public/NeosEnvironmentDisplay/Plugin.css'
 
       frontendConfiguration:
         'PunktDe.NeosEnvironmentDisplay':
-          backgroundColor: '#00adee'
-          label: 'Development'
-          icon: 'cog'
+          backgroundColor: ''
+          label: ''
+          icon: ''
