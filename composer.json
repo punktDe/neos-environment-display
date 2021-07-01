@@ -1,0 +1,15 @@
+{
+    "description": "Configure custom display-names for environments in the neos backend",
+    "type": "neos-package",
+    "name": "punktde/neos-environment-display",
+    "license": "MIT",
+    "require": {
+        "neos/neos": ">4.1",
+        "neos/neos-ui": "*"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "PunktDe.NeosEnvironmentDisplay"
+        }
+    }
+}

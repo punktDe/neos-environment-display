@@ -1,0 +1,17 @@
+/* eslint-disable */
+.wrapper {
+    display: inline-block;
+    position: relative;
+    padding: .5rem .75rem; /* 1px to prevent spacing issue */
+    margin-left: var(--spacing-Half);
+    vertical-align: top;
+    background: #ff8700;
+    white-space: nowrap;
+}
+
+.content {
+    font-size: 1rem;
+    /* font-weight: bold; */
+    line-height: 1.5;
+}
+
