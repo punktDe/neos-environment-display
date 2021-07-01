@@ -1,7 +1,6 @@
 {
     "description": "Configure custom display-names for environments in the neos backend",
-    "license": "GNU GPLv3",
-    "private": true,
+    "license": "MIT",
     "scripts": {
         "build": "neos-react-scripts build",
         "watch": "neos-react-scripts watch"
