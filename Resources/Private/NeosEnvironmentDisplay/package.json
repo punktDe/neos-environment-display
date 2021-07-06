@@ -2,7 +2,7 @@
     "description": "Configure custom display-names for environments in the neos backend",
     "license": "MIT",
     "scripts": {
-        "build": "neos-react-scripts build",
+        "build": "NODE_ENV=production neos-react-scripts build",
         "watch": "neos-react-scripts watch"
     },
     "dependencies": {

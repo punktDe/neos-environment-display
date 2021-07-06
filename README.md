@@ -21,8 +21,8 @@ Neos:
           backgroundColor: '#ff8700'
           label: 'Development'
           icon: 'cog'
-
 ```
 
 These values could also be set via `.env`. You can also set discrete values for different environments using context-specific Configuration (`Configuration/{Production|Production/Staging|Development}/Settings.Neos.yaml`).
-There is no default display value. 
+
+**NOTE: There is no default display value.**
