@@ -10,7 +10,7 @@ One use-case would be to show, whether you're currently using the Development, S
 Install via composer2:
 
 ```shell
-$ composer require punktde/neos-environment-display
+composer require punktde/neos-environment-display
 ```
 
 ## Setup
