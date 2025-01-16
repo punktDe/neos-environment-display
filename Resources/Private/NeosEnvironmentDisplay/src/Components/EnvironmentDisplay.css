@@ -1,16 +1,16 @@
 /* eslint-disable */
-.wrapper {
-    display: inline-block;
-    position: relative;
-    padding: .5rem .75rem; /* 1px to prevent spacing issue */
-    margin-left: var(--spacing-Half);
-    vertical-align: top;
-    white-space: nowrap;
+.environment-display-wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding: .5rem .75rem; /* 1px to prevent spacing issue */
+  margin-left: var(--spacing-Half);
+  vertical-align: top;
+  white-space: nowrap;
 }
 
-.content {
-    font-size: 1rem;
-    /* font-weight: bold; */
-    line-height: 1.5;
+.environment-display-wrapper__content {
+  display: flex;
+  flex-direction: column;
 }
-
