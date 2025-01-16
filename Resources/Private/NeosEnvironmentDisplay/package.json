@@ -1,24 +1,14 @@
 {
-    "description": "Configure custom display-names for environments in the neos backend",
-    "license": "MIT",
-    "scripts": {
-        "build": "NODE_ENV=production neos-react-scripts build",
-        "watch": "neos-react-scripts watch"
-    },
-    "dependencies": {
-        "@neos-project/neos-ui-extensibility": "^7.1",
-        "@neos-project/react-ui-components": "^7.1",
-        "eslint-plugin-react": "^7.20.5",
-        "eslint-plugin-react-hooks": "^4.0.0",
-        "prop-types": "^15.7.2",
-        "lodash.upperfirst": "^4.3.1",
-        "plow-js": "^2.2.0",
-        "redux-action": "^1.2.2",
-        "react": "^17.0.2",
-        "react-redux": "^7.2.3",
-        "webpack": "^4.3.0"
-    },
-    "neos": {
-        "buildTargetDirectory": "../../Public/NeosEnvironmentDisplay"
-    }
+  "version": "1.0.0",
+  "description": "Configure custom display-names for environments in the neos backend",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ../../Public/NeosEnvironmentDisplay && node esbuild.js",
+    "watch": "node esbuild.js --watch"
+  },
+  "dependencies": {
+    "@neos-project/neos-ui-extensibility": "~8.3.7",
+    "@neos-project/react-ui-components": "~8.3.7",
+    "esbuild": "~0.17.19"
+  }
 }
