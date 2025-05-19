@@ -20,6 +20,7 @@ Neos:
         'PunktDe.NeosEnvironmentDisplay':
           backgroundColor: '#ff8700'
           label: 'Development'
+          secondaryLabel: 'Some deployed version hash'
           icon: 'cog'
 ```
 

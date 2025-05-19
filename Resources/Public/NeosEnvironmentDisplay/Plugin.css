@@ -1,18 +1,2 @@
-/* eslint-disable */
-.EnvironmentDisplay__wrapper___3tV2b {
-    display: inline-block;
-    position: relative;
-    padding: .5rem .75rem; /* 1px to prevent spacing issue */
-    margin-left: 8px;
-    vertical-align: top;
-    white-space: nowrap;
-}
-.EnvironmentDisplay__content___1RKDr {
-    font-size: 1rem;
-    /* font-weight: bold; */
-    line-height: 1.5;
-}
-
-
-
-/*# sourceMappingURL=Plugin.css.map*/
+.environment-display-wrapper{display:inline-flex;flex-direction:row;align-items:center;position:relative;padding:.5rem .75rem;margin-left:var(--spacing-Half);vertical-align:top;white-space:nowrap}.environment-display-wrapper__content{display:flex;flex-direction:column}
+/*# sourceMappingURL=Plugin.css.map */

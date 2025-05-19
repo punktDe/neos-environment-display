@@ -13,4 +13,5 @@ Neos:
         'PunktDe.NeosEnvironmentDisplay':
           backgroundColor: ''
           label: ''
+          secondaryLabel: ''
           icon: ''
